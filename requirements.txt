@@ -1,0 +1,9 @@
+langchain
+langchain-huggingface
+python-dotenv
+langchain-groq==0.0.1
+langgraph
+huggingface-hub
+langchain_google_genai
+crewai[tools]
+mesop
