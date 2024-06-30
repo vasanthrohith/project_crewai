@@ -12,16 +12,6 @@ serper_api_key=os.getenv("SERPER_API_KEY")
 google_api_key=os.getenv("GOOGLE_API_KEY")
 
 
-# print(google_api_key)
-
-# llm = HuggingFaceEndpoint(
-#             repo_id='mistralai/Mistral-7B-Instruct-v0.3',
-#             task="text-generation",
-#             max_new_tokens=2000,
-#             do_sample=False,
-#             huggingfacehub_api_token=huggingfacehub_api_key
-#             )
-
 
 ## call the gemini models
 llm=ChatGoogleGenerativeAI(model="gemini-1.5-flash",
