@@ -6,5 +6,3 @@ load_dotenv()
 os.environ['SERPER_API_KEY'] = os.getenv('SERPER_API_KEY')
 
 search_tool = SerperDevTool()
-
-# print(search_tool.run("AI"))
